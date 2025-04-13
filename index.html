@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio - Ashutosh Kumar</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">PORTFOLIO</div>
+      <ul class="nav-links">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Hobbies">Hobbies</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="intro" id="Home">
+      <p>Namasté, I'm</p>
+      <h1>ASHUTOSH KUMAR</h1>
+      <span class="tag">✨ Frontend Developer</span>
+      <p>I am an IT <span class="highlight">undergraduate</span> passionate about technology and software development.<br/>
+      With strong programming skills, I have successfully led and contributed to <a href="https://github.com/Ashutosh7-kumar">various projects</a>.</p>
+      <div class="social-icons">
+        <a href="https://github.com/Ashutosh7-kumar" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/ashutosh_7_kumar?igsh=OXM2NmRqcWhqYWlq" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/share/169cuFSLb4/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ashutosh7-kumar/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>      
+      <div class="buttons">
+        <button class="contac">💻 Contact Me</button>
+        <button class="portfolio" onclick="window.open('https://portfolio-neon-kappa-89.vercel.app/', '_blank')">View Portfolio ➡️</button>
+      </div>
+    </section>
+
+    <section class="photo">
+      <img src="ashutosh.JPG" alt="Ashutosh Kumar" />
+    </section>
+  </main>
+
+  <section class="hobbies" id="Hobbies">
+    <h2>Hobbies & Interests</h2>
+    <p>Here are some things I love to do outside of coding:</p>
+    <div class="hobby-list">
+      <div class="hobby-card">
+        <i class="fas fa-book-reader"></i>
+        <h3>Reading Cheat Codes</h3>
+        <p>Enjoy exploring tech blogs, self-help, and cheat codes.</p>
+      </div>
+      <div class="hobby-card">
+        <i class="fas fa-headphones-alt"></i>
+        <h3>Music</h3>
+        <p>Listening to lo-fi and classical music to stay focused.</p>
+      </div>
+      <div class="hobby-card">
+        <i class="fas fa-desktop"></i>
+        <h3>Coding</h3>
+        <p>Exploring new technologies and building cool projects through coding</p>
+      </div>
+      <div class="hobby-card">
+        <i class="fas fa-film"></i>
+        <h3>Watching Web Series</h3>
+        <p>Watching movies and analyzing cinematic storytelling</p>
+      </div>
+      <div class="hobby-card">
+        <i class="fas fa-bicycle"></i>
+        <h3>cycling</h3>
+        <p>Enjoy cycling for fitness and adventure</p>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="Contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to get in touch, feel free to reach out through any of the platforms below:</p>
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="submit-button">Send Message</button>
+    </form>
+  </section>
+</body>
+</html>
